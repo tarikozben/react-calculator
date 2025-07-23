@@ -1,0 +1,48 @@
+.calculator-button {
+  height: 70px;
+  width: 70px;
+  font-size: 24px;
+  font-weight: 400;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.calculator-button:hover {
+  transform: scale(1.05);
+}
+
+.calculator-button:active {
+  transform: scale(0.95);
+}
+
+.number-btn {
+  background-color: #333;
+  color: white;
+}
+
+.number-btn:hover {
+  background-color: #555;
+}
+
+.operator-btn {
+  background-color: #ff9500;
+  color: white;
+  font-weight: 500;
+}
+
+.operator-btn:hover {
+  background-color: #ffad33;
+}
+
+.function-btn {
+  background-color: #a6a6a6;
+  color: black;
+  font-weight: 500;
+}
+
+.function-btn:hover {
+  background-color: #bfbfbf;
+}
