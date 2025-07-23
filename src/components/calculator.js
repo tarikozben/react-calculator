@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Button from './Button';
-import Display from './Display';
+import Button from './Button.js';
+import Display from './Display.js';
 import './Calculator.css';
 
 const Calculator = () => {
